@@ -7,3 +7,81 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  /* shared styles */
+.display-flex{
+    display: flex;
+    
+}
+.text-gray{
+    color: rgb(66, 66, 66);
+}
+.text-light-gray{
+    color: rgb(114, 114, 114);
+}
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+  /* header styles */
+
+  /* navbar styles */
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-item{
+       list-style: none;
+       margin: 30px;
+  }
+  .nav-link{
+     text-decoration: none;
+     font-size: 18px;
+    font-weight: 500;
+  }
+
+  .nav-links{
+
+  }
+  .navbar , .banner{
+    max-width:  1440px;
+    margin: 0 auto;
+  }
+  .brand{
+    
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .banner-container{
+    max-width:  862px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 50px;
+  }
+  .banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .btn-primary{
+
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 25px;
+    border: none;
+  }
+  .banner-image{
+      width: 100%;
+  }
+  @media screen and (max-width: 576px) {
+     .navbar, .nav-links{
+        flex-direction: column;
+     }
+  }
